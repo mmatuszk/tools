@@ -1,15 +1,15 @@
 import csv
 
-input_fname = 'in_products.csv'
+input_fname = 'out_products.csv'
 
-out_fname_base = "out_products"
+out_fname_base = "out_products_imgs"
 
 # initializing the titles and rows list
 fields = []
 rows = []
 
 # initialize row count
-out_row_ct = 1000
+out_row_ct = 100
 
 def writeCSVFile(filename, fields, rows):
     # writing to csv file
